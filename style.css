@@ -1,0 +1,52 @@
+body {
+  background: rgb(26, 26, 26);
+}
+.container {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.clock {
+  width: 30rem;
+  height: 30rem;
+  background: rgba(49, 49, 49, 0.616);
+  border-radius: 50%;
+  position: relative;
+}
+.transition {
+  transition: 0.5s ease;
+}
+.sec {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 14rem;
+  height: 1rem;
+  border-radius: 1rem;
+  background: white;
+  transform-origin: 0%;
+  transform: rotate(0deg);
+}
+.min {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 11rem;
+  height: 1rem;
+  border-radius: 1rem;
+  background: white;
+  transform-origin: 0%;
+  transform: rotate(0deg);
+}
+.hour {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 8rem;
+  height: 1rem;
+  border-radius: 1rem;
+  background: white;
+  transform-origin: 0%;
+  transform: rotate(0deg);
+}
